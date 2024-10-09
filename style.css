@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #004e92, #000428); /* Background gradient yang keren */
+    color: #333;
+    padding: 50px;
+    background-image: url('pexels-celine-3776818-16177540.jpg'); /* Tambah gambar latar jika ada */
+    background-size: cover;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.background {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.container {
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    margin-right: 20px;
+}
+
+.header-text {
+    flex-grow: 1;
+}
+
+.header-text h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.header-text p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.contact-info {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.contact-info li {
+    margin-bottom: 5px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
+    display: inline-block;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: blueviolet;
+}
+
+.job, .school {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.job p, .school p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills ul li {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
